@@ -25,7 +25,7 @@ export const translations: Record<Language, Record<string, string>> = {
         english: "English",
         view_details: "View Details",
         hide_details: "Hide Details",
-        euroguard_desc: "Agentic GDPR/HIPAA compliance platform. Analyzes privacy risks dynamically based on product context.",
+        euroguard_desc: "Agentic GDPR/HIPAA compliance platform. Analyzes privacy/compliance risks dynamically based on product context.",
         euroguard_arch: "Architecture: React frontend, FastAPI backend, PostgreSQL with pgvector. Features a LangGraph state machine with a self-correcting evaluation loop (Gemini 1.5 Flash) to minimize hallucinations.",
         ecologistics_desc: "Multimodal satellite tracking system. Parses natural language queries and runs live Neural Network inference to predict environmental alerts.",
         ecologistics_arch: "Architecture: Angular frontend, Apollo GraphQL backend, Apache Spark for distributed processing, and OpenSearch. Integrates Hugging Face Mistral for parsing and a PyTorch classifier for live alert prediction."
@@ -44,7 +44,7 @@ export const translations: Record<Language, Record<string, string>> = {
         english: "Inglés",
         view_details: "Ver Detalles",
         hide_details: "Ocultar Detalles",
-        euroguard_desc: "Plataforma de cumplimiento GDPR/HIPAA. Analiza riesgos de privacidad dinámicamente según el contexto del producto.",
+        euroguard_desc: "Plataforma de cumplimiento GDPR/HIPAA. Analiza riesgos de privacidad/compliance dinámicamente según el contexto del producto.",
         euroguard_arch: "Arquitectura: Frontend en React, backend en FastAPI, PostgreSQL con pgvector. Utiliza LangGraph con un ciclo de evaluación auto-correctivo (Gemini 1.5 Flash) para minimizar alucinaciones.",
         ecologistics_desc: "Sistema de seguimiento satelital multimodal. Analiza consultas en lenguaje natural y ejecuta inferencia en vivo con redes neuronales para predecir alertas ambientales.",
         ecologistics_arch: "Arquitectura: Frontend en Angular, backend Apollo GraphQL, Apache Spark para procesamiento distribuido y OpenSearch. Integra Hugging Face Mistral para análisis y un clasificador PyTorch para predicción de alertas."
@@ -63,7 +63,7 @@ export const translations: Record<Language, Record<string, string>> = {
         english: "Inglês",
         view_details: "Ver Detalhes",
         hide_details: "Ocultar Detalhes",
-        euroguard_desc: "Plataforma de conformidade GDPR/HIPAA. Analisa riscos de privacidade dinamicamente com base no contexto do produto.",
+        euroguard_desc: "Plataforma de conformidade GDPR/HIPAA. Analisa riscos de privacidade/compliance dinamicamente com base no contexto do produto.",
         euroguard_arch: "Arquitetura: Frontend em React, backend em FastAPI, PostgreSQL com pgvector. Apresenta uma máquina de estados LangGraph com loop de avaliação auto-corretivo (Gemini 1.5 Flash) para minimizar alucinações.",
         ecologistics_desc: "Sistema de rastreamento de satélites multimodal. Analisa consultas em linguagem natural e executa inferência ao vivo com Redes Neurais para prever alertas ambientais.",
         ecologistics_arch: "Arquitetura: Frontend em Angular, backend Apollo GraphQL, Apache Spark para processamento distribuído e OpenSearch. Integra Hugging Face Mistral para parsing e um classificador PyTorch para previsão de alertas."
