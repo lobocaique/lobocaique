@@ -11,7 +11,7 @@ export const LanguageToggle: React.FC = () => {
     ];
 
     return (
-        <div style={{ display: 'flex', gap: '8px', background: '#f5f5f7', padding: '4px', borderRadius: '100px' }}>
+        <div style={{ display: 'flex', gap: '8px', background: '#f0f0f0', padding: '4px', borderRadius: '100px' }}>
             {languages.map((lang) => (
                 <button
                     key={lang.code}

@@ -73,9 +73,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ title, summary, archit
                                 <span key={tech} style={{ 
                                     fontSize: '12px', 
                                     padding: '4px 10px', 
-                                    background: '#e3f2fd', 
+                                    background: '#ebebeb', 
                                     borderRadius: '100px', 
-                                    color: '#002147',
+                                    color: '#1a1a1a',
                                     fontWeight: 600
                                 }}>
                                     {tech}
