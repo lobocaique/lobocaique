@@ -27,7 +27,7 @@ export const translations: Record<Language, Record<string, string>> = {
         hide_details: "Hide Details",
         euroguard_desc: "Agentic GDPR/HIPAA compliance platform. Analyzes privacy/compliance risks dynamically based on product context.",
         euroguard_arch: "Architecture: React frontend, FastAPI backend, PostgreSQL. Uses a LangGraph state machine with a self-correcting evaluation loop (Gemini 1.5 Flash) to reduce hallucinations.",
-        ecologistics_desc: "Satellite imagery platform with environmental risk alerts. Fetches Sentinel-2 scenes from natural language queries and runs a PyTorch classifier for alert predictions (proof of concept — synthetic data, not trained on real imagery).",
+        ecologistics_desc: "Satellite imagery platform with environmental risk alerts. Fetches Sentinel-2 scenes from natural language queries and runs a PyTorch classifier for alert predictions (proof of concept, synthetic data, not trained on real imagery).",
         ecologistics_arch: "Architecture: Angular frontend, Apollo GraphQL backend, FastAPI + PyTorch ML service. Kafka, Spark, and OpenSearch included in the stack for ingestion/indexing (not yet wired to the main flow). Uses Hugging Face Mistral for query parsing."
     },
     es: {
@@ -46,7 +46,7 @@ export const translations: Record<Language, Record<string, string>> = {
         hide_details: "Ocultar Detalles",
         euroguard_desc: "Plataforma de cumplimiento GDPR/HIPAA. Analiza riesgos de privacidad/compliance dinámicamente según el contexto del producto.",
         euroguard_arch: "Arquitectura: Frontend en React, backend en FastAPI, PostgreSQL. Utiliza LangGraph con un ciclo de evaluación auto-correctivo (Gemini 1.5 Flash) para reducir alucinaciones.",
-        ecologistics_desc: "Plataforma de imágenes de satélite con alertas de riesgos ambientales. Obtiene escenas Sentinel-2 a partir de consultas en lenguaje natural y ejecuta un clasificador PyTorch para predicción de alertas (prueba de concepto — datos sintéticos, no entrenado con imágenes reales).",
+        ecologistics_desc: "Plataforma de imágenes de satélite con alertas de riesgos ambientales. Obtiene escenas Sentinel-2 a partir de consultas en lenguaje natural y ejecuta un clasificador PyTorch para predicción de alertas (prueba de concepto, datos sintéticos, no entrenado con imágenes reales).",
         ecologistics_arch: "Arquitectura: Frontend en Angular, backend Apollo GraphQL, servicio ML con FastAPI + PyTorch. Kafka, Spark y OpenSearch incluidos en el stack para ingesta/indexación (aún no conectados al flujo principal). Usa Hugging Face Mistral para parseo de consultas."
     },
     pt: {
@@ -65,7 +65,7 @@ export const translations: Record<Language, Record<string, string>> = {
         hide_details: "Ocultar Detalhes",
         euroguard_desc: "Plataforma de conformidade GDPR/HIPAA. Analisa riscos de privacidade/compliance dinamicamente com base no contexto do produto.",
         euroguard_arch: "Arquitetura: Frontend em React, backend em FastAPI, PostgreSQL. Utiliza uma máquina de estados LangGraph com loop de avaliação auto-corretivo (Gemini 1.5 Flash) para reduzir alucinações.",
-        ecologistics_desc: "Plataforma de imagens de satélite com alertas de riscos ambientais. Obtém cenas Sentinel-2 a partir de consultas em linguagem natural e executa um classificador PyTorch para previsão de alertas (prova de conceito — dados sintéticos, não treinado com imagens reais).",
+        ecologistics_desc: "Plataforma de imagens de satélite com alertas de riscos ambientais. Obtém cenas Sentinel-2 a partir de consultas em linguagem natural e executa um classificador PyTorch para previsão de alertas (prova de conceito, dados sintéticos, não treinado com imagens reais).",
         ecologistics_arch: "Arquitetura: Frontend em Angular, backend Apollo GraphQL, serviço ML com FastAPI + PyTorch. Kafka, Spark e OpenSearch incluídos no stack para ingestão/indexação (ainda não conectados ao fluxo principal). Usa Hugging Face Mistral para parsing de consultas."
     }
 };

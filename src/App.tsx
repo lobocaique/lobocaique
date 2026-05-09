@@ -48,7 +48,7 @@ const AppContent: React.FC = () => {
           </h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
             <ProjectCard
-              title="Compliance Auditor 📄"
+              title="I. Compliance Auditor"
               summary={t('euroguard_desc')}
               architecture={t('euroguard_arch')}
               githubUrl="https://github.com/lobocaique/compliance-audit"
@@ -56,7 +56,7 @@ const AppContent: React.FC = () => {
               screenshotUrl={complianceImg}
             />
             <ProjectCard
-              title="Earth Monitor 🌍"
+              title="II. Earth Monitor"
               summary={t('ecologistics_desc')}
               architecture={t('ecologistics_arch')}
               githubUrl="https://github.com/lobocaique/earth-monitor"
