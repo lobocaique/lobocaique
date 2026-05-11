@@ -52,7 +52,18 @@ const AppContent: React.FC = () => {
               summary={t('euroguard_desc')}
               architecture={t('euroguard_arch')}
               githubUrl="https://github.com/lobocaique/compliance-audit"
-              techStack={['React', 'FastAPI', 'LangGraph', 'Gemini 1.5 Flash', 'PostgreSQL pgvector']}
+              techStack={[
+                'React',
+                'TypeScript',
+                'Vite',
+                'FastAPI',
+                'LangGraph',
+                'Gemini 1.5 Flash',
+                'PostgreSQL',
+                'pgvector',
+                'Docker',
+                'Google Generative AI SDK',
+              ]}
               screenshotUrl={complianceImg}
             />
             <ProjectCard
@@ -60,7 +71,18 @@ const AppContent: React.FC = () => {
               summary={t('ecologistics_desc')}
               architecture={t('ecologistics_arch')}
               githubUrl="https://github.com/lobocaique/earth-monitor"
-              techStack={['Angular', 'GraphQL', 'PyTorch', 'Hugging Face', 'Apache Spark', 'OpenSearch']}
+              techStack={[
+                'Angular',
+                'GraphQL',
+                'Node.js',
+                'FastAPI',
+                'PyTorch',
+                'Apache Spark',
+                'OpenSearch',
+                'Kafka',
+                'Hugging Face',
+                'Docker',
+              ]}
               screenshotUrl={earthImg}
             />
           </div>

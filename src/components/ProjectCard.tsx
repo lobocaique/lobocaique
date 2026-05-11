@@ -13,6 +13,9 @@ interface ProjectCardProps {
 export const ProjectCard: React.FC<ProjectCardProps> = ({ title, summary, architecture, githubUrl, techStack, screenshotUrl }) => {
     const [expanded, setExpanded] = useState(false);
     const { t } = useLanguage();
+    const skillsLine = techStack?.length
+        ? techStack.slice(0, 10).join(', ')
+        : null;
 
     return (
         <div style={{
@@ -47,6 +50,19 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ title, summary, archit
                 {summary}
             </p>
 
+            {skillsLine && (
+                <p style={{
+                    margin: 0,
+                    marginTop: '4px',
+                    fontSize: '14px',
+                    lineHeight: '1.5',
+                    color: 'var(--color-text-muted)'
+                }}>
+                    <span style={{ fontWeight: 600, color: 'var(--color-text-main)' }}>{t('skills_label')}:</span>{' '}
+                    {skillsLine}
+                </p>
+            )}
+
             {expanded && (
                 <div style={{ marginTop: '16px', animation: 'fadeIn 0.3s ease' }} onClick={(e) => e.stopPropagation()}>
                     {architecture && (
@@ -64,23 +80,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ title, summary, archit
                             marginBottom: '16px'
                         }}>
                             <img src={screenshotUrl} alt={title} style={{ width: '100%', display: 'block', objectFit: 'cover' }} />
-                        </div>
-                    )}
-                    
-                    {techStack && techStack.length > 0 && (
-                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '16px' }}>
-                            {techStack.map(tech => (
-                                <span key={tech} style={{ 
-                                    fontSize: '12px', 
-                                    padding: '4px 10px', 
-                                    background: '#ebebeb', 
-                                    borderRadius: '100px', 
-                                    color: '#1a1a1a',
-                                    fontWeight: 600
-                                }}>
-                                    {tech}
-                                </span>
-                            ))}
                         </div>
                     )}
 
