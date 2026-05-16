@@ -61,6 +61,7 @@ const AppContent: React.FC = () => {
                 'Gemini 1.5 Flash',
                 'PostgreSQL',
                 'pgvector',
+                'RAG',
                 'Docker',
                 'Google Generative AI SDK',
               ]}
